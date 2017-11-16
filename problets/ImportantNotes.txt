@@ -1,0 +1,15 @@
+
+No issues with counter, arithmetic, FnOutput, iteration, Logical, Switch, pretest, relational
+
+Fn Debug no issues when calculated separately
+Array no issues when calculated separately
+
+Assignment has two excel sheets. AssignmentS14Expln.xlsx had issues calculating java because only three people answered all java questions. Therefore, java calculations could not be completed, and were not necessary for this sheet. The other excel sheet was fine
+
+
+OOP has no issues when calculated separately
+Selection has no issues when calculated separately
+
+
+
+DID NOT SOLVE 'first test posted by akumar' & 'POSTTEST'

@@ -1,0 +1,333 @@
+PROBLET DIMENSIONAL ANALYSIS:
+----------------------------------------------------------------------
+  Each grouping below represents a distinct 'concept' discovered in the problet data.
+  The problets in that dimension are listed in Pareto dominance order, such that the
+  top problet strictly dominates the ones under it.  Only the top-most problet in
+  each dimension provides any *distinctions* in student performance.
+----------------------------------------------------------------------
+There are  15 underlying objectives to this PROBLET data
+Count 	Template ID
+   168 	413
+   5 	126
+
+Count 	Template ID
+   122 	305
+
+Count 	Template ID
+   121 	424
+
+Count 	Template ID
+   118 	203
+
+Count 	Template ID
+   83 	441
+
+Count 	Template ID
+   67 	428
+
+Count 	Template ID
+   65 	300
+
+Count 	Template ID
+   49 	322
+
+Count 	Template ID
+   45 	433
+
+Count 	Template ID
+   42 	420
+
+Count 	Template ID
+   39 	310
+
+Count 	Template ID
+   29 	622
+
+Count 	Template ID
+   18 	209
+
+Count 	Template ID
+   17 	153
+
+Count 	Template ID
+   12 	654
+
+
+STUDENT DIMENSIONAL ANALYSIS:
+----------------------------------------------------------------------
+  Each grouping below represents a distinct 'type' of student performance discovered
+  The students in that dimension are listed in Pareto dominance order, such that the
+  top student strictly dominates the ones under it.  The top student in each group
+  might be seen as the one who mastered that concept the best, while the bottom might
+  be seen as the one who mastered it the least.
+----------------------------------------------------------------------
+There are  48 underlying objectives to this STUDENT data
+Count 	 Cases		Student ID
+   16 	1111111111111111	589
+   15 	1101111111111111	496
+   14 	1101111101111111	453
+   13 	1101111101111011	72
+   11 	1101111101001011	529
+   10 	1101111101000011	367
+   9 	1101101101000011	420
+   8 	1101100101000011	376
+   5 	1001100000000011	532
+
+Count 	 Cases		Student ID
+   15 	1111011111111111	577
+   14 	1111011111011111	468
+   13 	1111011101011111	450
+   12 	1111001101011111	240
+   11 	1101001101011111	9
+   10 	1101001101010111	521
+   8 	1101001101010001	239
+   6 	1101001001000001	390
+   3 	1100000000000001	362
+   2 	1100000000000000	461
+
+Count 	 Cases		Student ID
+   15 	1111111111111011	586
+   14 	1111111011111011	413
+   13 	1111101011111011	399
+   11 	1111101010011011	384
+   8 	1101100010011001	326
+
+Count 	 Cases		Student ID
+   15 	1111111011111111	398
+   14 	1111111011101111	299
+   10 	1011101001001111	80
+   4 	1001000000001010	448
+
+Count 	 Cases		Student ID
+   15 	1111101111111111	354
+   14 	1111101111111011	418
+   13 	1101101111111011	509
+   12 	1100101111111011	91
+   10 	1100101101011011	25
+   5 	1100001000000011	539
+
+Count 	 Cases		Student ID
+   15 	1111111111110111	345
+   13 	1101101111110111	477
+   12 	1101101101110111	42
+   10 	1101001101100111	110
+   7 	0100001101000111	31
+   4 	0000000100000111	205
+
+Count 	 Cases		Student ID
+   15 	1111111101111111	578
+   14 	1111111101111011	430
+   13 	1111111101011011	513
+   12 	1111111101001011	490
+   11 	1111101101001011	576
+   10 	1111101100001011	415
+   7 	1101101000000011	38
+   4 	1001101000000000	82
+
+Count 	 Cases		Student ID
+   15 	1111111111111101	443
+   14 	1111111111111001	277
+   11 	1011101101111001	166
+   3 	1000001000001000	295
+
+Count 	 Cases		Student ID
+   15 	1111111110111111	570
+   14 	1111110110111111	103
+   12 	1111110100111011	581
+   9 	1111010100010011	402
+   2 	0100000100000000	396
+
+Count 	 Cases		Student ID
+   15 	1110111111111111	454
+   14 	1110111101111111	97
+   11 	1100101101011111	309
+   8 	1000000101011111	70
+
+Count 	 Cases		Student ID
+   15 	1111111111011111	559
+   14 	1111111011011111	409
+   13 	1111111001011111	439
+   12 	1111101001011111	279
+   11 	1111101001011011	297
+   9 	1101101001001011	514
+   8 	1101100001001011	401
+
+Count 	 Cases		Student ID
+   14 	1111111101011111	545
+   13 	1111111101011101	233
+   11 	1101101101011101	30
+   9 	1101101001001101	486
+   7 	1101001001001001	446
+
+Count 	 Cases		Student ID
+   14 	1111111110011111	423
+   11 	1111100110001111	372
+   9 	1011100010001111	84
+
+Count 	 Cases		Student ID
+   14 	1111011101111111	470
+   13 	1101011101111111	115
+   12 	1101001101111111	357
+   11 	1001001101111111	75
+   8 	1001000100111101	276
+   4 	1001000000100100	360
+
+Count 	 Cases		Student ID
+   14 	1101101111111111	374
+   13 	1101101101111111	550
+   12 	1101101101011111	455
+   11 	1101101101001111	544
+   10 	1101100101001111	492
+   8 	1101100100000111	64
+
+Count 	 Cases		Student ID
+   14 	1111111100111111	312
+   13 	1111101100111111	574
+   10 	1101001100011111	106
+   6 	1100000000001111	452
+
+Count 	 Cases		Student ID
+   14 	1111101110111111	573
+   10 	1101001110110101	436
+   5 	1100001100100000	375
+
+Count 	 Cases		Student ID
+   14 	1111110101111111	368
+   13 	1101110101111111	32
+   9 	1101100100100111	458
+
+Count 	 Cases		Student ID
+   14 	1111111110111011	333
+   13 	1111011110111011	302
+   3 	0001001100000000	83
+
+Count 	 Cases		Student ID
+   14 	1111111001111111	379
+   11 	1101001001111111	285
+
+Count 	 Cases		Student ID
+   14 	1111110111111011	296
+   13 	1101110111111011	383
+
+Count 	 Cases		Student ID
+   14 	1101111011111111	305
+   12 	1101001011111111	516
+
+Count 	 Cases		Student ID
+   14 	1111101101111111	572
+   13 	1111100101111111	132
+   10 	1111100101000111	86
+
+Count 	 Cases		Student ID
+   14 	1101011111111111	480
+   13 	1101001111111111	471
+   9 	1101001101001011	392
+
+Count 	 Cases		Student ID
+   14 	1111111111001111	336
+   13 	1111111101001111	391
+   12 	1111011101001111	441
+   11 	1101011101001111	94
+
+Count 	 Cases		Student ID
+   14 	1111011111111011	533
+   13 	1111011101111011	52
+   12 	1111001101111011	556
+
+Count 	 Cases		Student ID
+   14 	1101111111011111	369
+   13 	1101111101011111	451
+   12 	1101111101010111	77
+   10 	1101101101000111	104
+   7 	1101101000000101	377
+
+Count 	 Cases		Student ID
+   13 	1111100111011111	180
+   11 	1111100011011011	248
+
+Count 	 Cases		Student ID
+   13 	1111101011110111	260
+   10 	1111101001110010	530
+
+Count 	 Cases		Student ID
+   13 	1101101111011111	567
+   12 	1101101111011011	340
+   11 	1101101011011011	483
+   6 	1001101010000001	432
+
+Count 	 Cases		Student ID
+   13 	1110110111111011	2
+
+Count 	 Cases		Student ID
+   13 	1111001011111111	310
+   11 	1111000011011111	378
+
+Count 	 Cases		Student ID
+   13 	1111101101011111	481
+   12 	1111101101010111	114
+   8 	1111101001000001	113
+
+Count 	 Cases		Student ID
+   13 	1111010011111111	286
+
+Count 	 Cases		Student ID
+   12 	1111111100101011	456
+
+Count 	 Cases		Student ID
+   12 	1101111111000111	400
+   9 	1101101110000011	266
+
+Count 	 Cases		Student ID
+   12 	1111110101001111	341
+
+Count 	 Cases		Student ID
+   12 	1111101101001111	5
+   10 	1111001001001111	219
+
+Count 	 Cases		Student ID
+   12 	1001100111111111	504
+
+Count 	 Cases		Student ID
+   12 	1101101101101111	359
+   7 	1001101000100101	98
+
+Count 	 Cases		Student ID
+   11 	1101011100011111	554
+
+Count 	 Cases		Student ID
+   11 	1111000111111010	331
+
+Count 	 Cases		Student ID
+   11 	1101111001110011	364
+
+Count 	 Cases		Student ID
+   10 	0111110001110011	568
+
+Count 	 Cases		Student ID
+   10 	1101101111100010	511
+
+Count 	 Cases		Student ID
+   9 	1101111001000101	410
+
+Count 	 Cases		Student ID
+   8 	1001111010001100	564
+
+Count 	 Cases		Student ID
+   8 	1100000111000111	67
+
+
+PROBLET DIFFICULTY ANALYSIS (*):
+----------------------------------------------------------------------
+  For the 'Hard' row, we count the number of times the *best* student
+  in each dimension misses that Problet.  The bigger the number, the harder.
+
+  For the 'easy' row, we count the number of times the *worst* student
+  in each dimension passes that Problet.  The bigger the number, the easier.
+
+  The optima in each case is indicated by '*'.
+----------------------------------------------------------------------
+       322   420   433   424   300   203   428   305   622   209   654   310   153   441   413   126 
+      ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== =====
+Hard    1     2     14    3     9     15    10    10   *16    8     15    10    8     10    3     3  
+Easy   *44    35    14    38    25    11    24    21    15    25    17    16    25    22    33    36 
+
