@@ -3,10 +3,10 @@ import numpy as np
 from openpyxl import load_workbook
 
 
-fileName = "SelectionSelfExpln" #copy/paste filename without file extension
+fileName = "Test" #copy/paste filename without file extension
 file = "%s.xlsx" % (fileName) #creates file variable for rest of program
 
-path = r'/home/suraj/Documents/Ramapo-Project/SelectionSelfExpln.xlsx' #path to copy loaded workbook to
+path = r'/home/suraj/Documents/Programming/Ramapo-College-Kumar/Test.xlsx' #path to copy loaded workbook to
 
 correctScore = 1.0 #correct score for each question. Can be changed
 
@@ -181,7 +181,7 @@ def stats():
     tot = "N: " + str(numAnswered)
     result.iloc[0,0] = tot
     
-    print result
+    print(result)
     print("Saving data to Stats sheet")
 
     
@@ -191,8 +191,33 @@ def stats():
     writer.sheets = dict((ws.title, ws) for ws in book.worksheets)
     result.to_excel(writer, sheet_name='Stats')
     writer.save()
+    
+    
+def legend():
 
+    info = {
+    'A. Follows order from previous sheet': 'Values from top to bottom on previous sheet',
+    'B. P(n)': 'Probability of the problem being solved correctly',
+    'C. P(n|n - 1)': 'Conditional probability of solving (n+1)th problem correctly given nth problem was solved correctly',
+    'D. P(n-1|n)': 'Calculated by dividing P(n-1) / P(correct)',
+    'E. P(n,n-1,n-2,...,1)' : 'cumulative probability 1',
+    'F. P(n|n-1,n-2,...,1)': 'cumulative probability 2',
+    'G. P(B| ~A)': 'Probability of B correct given A incorrect',
+    'H. P(n|n - 1) * P(n - 1)': 'Verification of data 1',
+    'I. P(n - 1|n) * P(n)': 'Verification of data 2',
+    'J. P(n|n-1,n-2,...,1)': 'Verification of chain rule'
+    }
 
+    df = pd.DataFrame.from_records(info, index=[0]).T
+
+    df = df.sort_index(ascending=True)
+
+    writer = pd.ExcelWriter(path, engine='openpyxl')
+    book = load_workbook(path)
+    writer.book = book
+    writer.sheets = dict((ws.title, ws) for ws in book.worksheets)
+    df.to_excel(writer, sheet_name='Legend')
+    writer.save()
 
 
 pretest()
@@ -202,3 +227,4 @@ correct()
 conditional()
 cumulative()
 stats()
+legend()
